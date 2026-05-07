@@ -1,5 +1,4 @@
 $kind: http-request
-name: Display Custom Safety Message to Driver
 url: "{{baseUrl}}/display"
 method: GET
 body:
