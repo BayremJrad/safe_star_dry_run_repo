@@ -1,9 +1,16 @@
 $kind: http-request
-name: Confirm Vehicle Profile Exists
 url: "{{baseUrl}}/vehicle/:id"
-method: GET
+method: PATCH
+headers:
+  x-mock-response-code: "200"
 pathVariables:
   id: "{{vehicleID}}"
+body:
+  type: json
+  content: |-
+    {
+        "newCode": false
+    }
 auth:
   type: jwt
   credentials:
@@ -15,4 +22,4 @@ auth:
     headerPrefix: Bearer
     queryParamKey: token
     header: "{}"
-order: 2000
+order: 3000

@@ -1,9 +1,15 @@
+owner: "54509422"
+team: "15635132"
+lastUpdatedBy: "54509422"
+lastRevision: 1778174425000
 name: Test
+color: 60
 values:
   - key: baseUrl
-    value: 'https://demo.postman-academy.com/v1/safestar-test'
+    value: https://demo.postman-academy.com/v1/safestar-test
     enabled: true
   - key: jwtSecret
     value: YS1zdHJpbmctc2VjcmV0LWF0LWxlYXN0LTI1Ni1iaXRzLWxvbmc=
     enabled: true
-color: 60
+createdAt: 2026-05-07T17:12:46.000Z
+updatedAt: 2026-05-07T17:20:25.000Z
